@@ -1,0 +1,237 @@
+/* .registration-form-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+} */
+
+
+
+/**/
+
+h5{
+  color: gray;
+  text-align: left;
+  margin: 8px 0px 8px 0px;
+  font-weight: 500;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* .reg-body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  margin-left: 10vw;
+} */
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 30px;
+}
+
+
+
+.bar {
+  background-color: black;
+  width: 100px;
+  height: 5px;
+}
+
+@keyframes cardanimation {
+  0% {
+    height: 100px;
+    overflow: hidden;
+  }
+  99% {
+    height: 760px;
+    overflow: hidden;
+  }
+  100% {
+    height: auto;
+    overflow: hidden;
+  }
+}
+
+.signup-card {
+  text-align: center;
+  margin: auto;
+  width: 320px;
+  background-color: white;
+  padding: 35px;
+  box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.192);
+  font-weight: 500;
+  border-radius: 6px;
+  overflow: hidden;
+  animation: cardanimation 0.6s ease-in-out forwards; 
+}
+
+
+.login-card p:nth-child(2) {
+  /* color: gray; */
+  font-weight: 500;
+  /* font-size: medium; */
+  /* margin-top: 20px; */
+  margin-bottom: 24px;
+}
+
+.f-pass {
+  font-weight: 500;
+  font-size: small;
+  display: flex;
+  text-align: end;
+  flex-direction: column;
+}
+
+.signup {
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 53, 39);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+}
+
+input {
+  background-color: rgb(228, 240, 250);
+  text-align: start;
+  border: 0px;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input:hover  {
+  background-color: rgb(202, 227, 248);
+}
+
+
+button {
+  background-color: rgb(255, 96, 39);
+  padding: 15px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: rgb(240, 70, 8);
+  cursor: pointer;
+  /* border: .5px solid rgba(128, 128, 128, 0.781); */
+}
+
+.breaker {
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.breaker p {
+  padding-top: 4px;
+}
+
+hr {
+  width: 40px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.box {
+  border: 2px solid rgba(128, 128, 128, 0.418);
+  border-radius: 5px;
+  padding: 12px 0px 12px 0px;
+}
+
+.box:hover {
+  border: 2px solid rgba(128, 128, 128, 0.781);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+img {
+  margin: auto;
+  width: 25px;
+
+}
+
+.login-card p{
+  color: gray;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
