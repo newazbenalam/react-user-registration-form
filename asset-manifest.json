@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-user-registration-form/static/css/main.cfe62c5f.css",
+    "main.js": "/react-user-registration-form/static/js/main.dd256456.js",
+    "index.html": "/react-user-registration-form/index.html",
+    "main.cfe62c5f.css.map": "/react-user-registration-form/static/css/main.cfe62c5f.css.map",
+    "main.dd256456.js.map": "/react-user-registration-form/static/js/main.dd256456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfe62c5f.css",
+    "static/js/main.dd256456.js"
+  ]
+}
